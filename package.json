@@ -4,7 +4,7 @@
   "description": "discord bot for allowing all members of the discord server to create roles for themselves, to allow to change their own colors",
   "main": "bot.js",
   "scripts": {
-    "test": "test"
+    "heroku-postbuild": "npm install && node bot.js"
   },
   "author": "Tomas Petreikis",
   "license": "ISC",
