@@ -105,4 +105,4 @@ client.on("message", msg => {
     });
   }
 });
-client.login('process.env.bot_secret');
+client.login(process.env.bot_secret);
